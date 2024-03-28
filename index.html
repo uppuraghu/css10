@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* p::first-letter{
+        color: crimson;
+        background-color: aqua;
+        font-size: 100px;
+      }   */
+      /* p::first-line{
+        color: crimson;
+        background-color: aqua;
+        font-size: 100px;
+      } */
+      /* p::before{
+        color: crimson;
+        background-color: aqua;
+
+      } */
+      /* p::after{
+        color: crimson;
+        background-color: aqua;
+        font-size: 100px;
+        content: "hello";
+      }
+      p::selection{
+        color: crimson;
+        background-color: aqua;
+        font-size: 100px;
+        
+      } */
+      /* li:marker{
+        color: blue;
+        content: hello;
+        font-size: 100px;
+      } */
+      body{
+        background-color: black;
+      }
+.tr{
+    height: 100px;
+    width: 100px;
+    color: aqua;  
+     
+}
+.aaa:active ~ .tr{
+    color: aqua;
+    background-color: black;
+    /* transform:perspective(500px) scale(1.5)rotate(160deg); */
+    transform:rotateX(63deg) ;
+}
+
+.td{
+    height: 100px;
+    width: 100px;
+    color: aqua;  
+     
+}
+.bbb:active ~ .td{
+    color: aqua;
+    background-color: black;
+    /* transform:perspective(500px) scale(1.5)rotate(160deg); */
+    transform: scale(1.5)rotate(260deg);
+}
+.tz{
+    height: 100px;
+    width: 100px;
+    color: aqua;  
+    margin-left: 600px;
+    margin-top: -300px;
+     
+}
+.ccc:active ~ .tz{
+    color: aqua;
+    background-color: black;
+    transform: skew(120deg);
+ 
+}
+.ty{
+    height: 100px;
+    width: 100px;
+    color: aqua;  
+    margin-left: 1100px;
+    margin-top: -110px;
+     
+}
+.ddd:active ~ .ty{
+    color: aqua;
+    background-color: black;
+    transform:perspective(500px) scale(1.5)rotate(180deg); 
+ 
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+    </style>
+</head>
+<body>
+   <input class="aaa" type="radio">raghu
+    <div class="tr">
+       <img src="img2.jpg" >
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <input class="bbb" type="radio">sunny
+    <div class="td">
+        <img src="img3.jpg" >
+    </div>
+
+    <input class="ccc" type="radio">sunny
+    <div class="tz">
+        <img src="img4.jpg" >
+    </div>
+
+    <input class="ddd" type="radio">sunny
+    <div class="ty">
+        <img src="img6.jpg" >
+    </div>
+</body>
+</html>
